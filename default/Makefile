@@ -5,7 +5,7 @@ run: compile
 	echo "[MAKE] running the program:"
 	./out/output input.txt
 
-compile: clean
+compile:
 	echo "[MAKE] compiling the program:"
 	mkdir -p out/
 	gcc main.c -o out/output

@@ -2,9 +2,9 @@
 
 int main(int argc, char *argv[]) {
    printf("-- [[ Start of the program ]] --\n\n");
-   for ( int i = 0; i < argc; i++ ) {
-      printf("%s\n", argv[i]);
-   }
+
+   // function_name(argv[1]);
+
    printf("\n-- [[ End of the program ]] --\n");
 
    return 0;
